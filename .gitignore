@@ -2,26 +2,41 @@
 dataset/
 *.tsv
 *.csv
+*.csv.gz
+*.parquet
+*.feather
+*.pkl
+*.npy
+*.npz
 
 # Outputs / large experiment artifacts
 output/
 experiments/
 artifacts/
+candidates/
 models/
-*.pkl
+*.bin
+*.pt
+*.onnx
 *.joblib
-*.parquet
-*.feather
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*
+.aws/
 
 # Python
 __pycache__/
 *.py[cod]
 .venv/
+.venv*/
 venv/
-.env
-.env.*
 .pytest_cache/
 .mypy_cache/
+.ipynb_checkpoints/
 
 # OS / IDE
 .DS_Store
@@ -30,3 +45,4 @@ venv/
 
 # Logs
 *.log
+build.log

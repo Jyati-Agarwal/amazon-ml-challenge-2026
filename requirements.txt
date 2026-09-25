@@ -1,0 +1,14 @@
+# Amazon ML Challenge 2026 — pipeline environment (.venv312, Python 3.12.14)
+# Verified by scripts/smoke_e2e.py on 2026-09-25 (all checks pass, incl. pandas 3).
+# pandas 3 passed every compatibility test against the existing project code, so it
+# is pinned as-is; if a pandas-3 regression ever surfaces, fall back to pandas<3.
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+rapidfuzz==3.14.6
+lightgbm==4.7.0        # macOS: requires `brew install libomp`
+pyarrow==25.0.1
+polars==1.44.2
+sparse-dot-topn==1.2.0
+unidecode==1.4.0
