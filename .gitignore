@@ -1,0 +1,32 @@
+# Local dataset — NEVER commit competition data
+dataset/
+*.tsv
+*.csv
+
+# Outputs / large experiment artifacts
+output/
+experiments/
+artifacts/
+models/
+*.pkl
+*.joblib
+*.parquet
+*.feather
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
