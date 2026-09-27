@@ -10,6 +10,8 @@ dataset/
 *.npz
 
 # Outputs / large experiment artifacts
+*.zip
+submission_build/
 output/
 experiments/
 artifacts/
